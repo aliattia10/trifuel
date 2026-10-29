@@ -17,6 +17,8 @@ services:
         value: "True"
       - key: DJANGO_COLLECTSTATIC_ON_STARTUP
         value: "False"
+      - key: WGER_SERVE_STATIC
+        value: "True"
       - key: AXES_ENABLED
         value: "False"
       - key: SITE_URL

@@ -402,5 +402,16 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     # urlpatterns.append(path('__debug__/', include('debug_toolbar.urls')))
 
+# Single-container PaaS (e.g. Render free): serve CSS/JS via staticfiles finders
+# without a separate collectstatic + CDN step.
+if getattr(settings, 'WGER_SERVE_STATIC', False):
+    # Django
+    from django.contrib.staticfiles.views import serve as serve_static
+    from django.urls import re_path
+
+    urlpatterns += [
+        re_path(r'^static/(?P<path>.*)$', serve_static, {'insecure': True}),
+    ]
+
 if settings.EXPOSE_PROMETHEUS_METRICS:
     urlpatterns += [path('prometheus/', include('django_prometheus.urls'))]

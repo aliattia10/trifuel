@@ -113,13 +113,66 @@ if not DEBUG and any(
         '`./manage.py generate-jwt-keys`',
         stacklevel=1,
     )
-if not DEBUG and not (JWT_PRIVATE_KEY and JWT_PUBLIC_KEY):
-    warnings.warn(
-        'JWT_PRIVATE_KEY / JWT_PUBLIC_KEY are not set. JWT authentication '
-        'will not work until you run `./manage.py generate-jwt-keys` and '
-        'add the output to your environment.',
-        stacklevel=1,
-    )
+
+
+def _ensure_jwt_keypair() -> tuple[str, str]:
+    """Generate (and optionally persist) an RS256 JWK pair when env is empty."""
+    # Standard Library
+    import json
+    from base64 import urlsafe_b64decode, urlsafe_b64encode
+    from pathlib import Path
+
+    # Third Party
+    from cryptography.hazmat.primitives.asymmetric import rsa
+    from jwt.algorithms import RSAAlgorithm
+
+    cache_path = Path(env.str('WGER_JWT_KEY_CACHE', '/home/wger/jwt-keys.json'))
+    if cache_path.is_file():
+        try:
+            cached = json.loads(cache_path.read_text())
+            private_b64 = cached.get('JWT_PRIVATE_KEY', '')
+            public_b64 = cached.get('JWT_PUBLIC_KEY', '')
+            if private_b64 and public_b64:
+                # Validate the blobs decode as JSON JWKs
+                def _pad(s: str) -> bytes:
+                    return urlsafe_b64decode(s + '=' * (-len(s) % 4))
+
+                json.loads(_pad(private_b64))
+                json.loads(_pad(public_b64))
+                return private_b64, public_b64
+        except Exception:
+            pass
+
+    rsa_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+    priv_jwk = json.loads(RSAAlgorithm.to_jwk(rsa_key))
+    priv_jwk['alg'] = 'RS256'
+    priv_jwk['kid'] = 'trifuel'
+    pub_jwk = {k: priv_jwk[k] for k in ('kty', 'n', 'e', 'alg', 'kid')}
+
+    def b64_jwk(d: dict) -> str:
+        return urlsafe_b64encode(json.dumps(d).encode()).decode()
+
+    private_b64 = b64_jwk(priv_jwk)
+    public_b64 = b64_jwk(pub_jwk)
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(
+            json.dumps({'JWT_PRIVATE_KEY': private_b64, 'JWT_PUBLIC_KEY': public_b64})
+        )
+    except OSError:
+        pass
+    return private_b64, public_b64
+
+
+if not (JWT_PRIVATE_KEY and JWT_PUBLIC_KEY):
+    JWT_PRIVATE_KEY, JWT_PUBLIC_KEY = _ensure_jwt_keypair()
+    if not DEBUG:
+        warnings.warn(
+            'JWT_PRIVATE_KEY / JWT_PUBLIC_KEY were missing so a runtime keypair '
+            'was generated. Set them in the environment for stable tokens across '
+            'redeploys (./manage.py generate-jwt-keys).',
+            stacklevel=1,
+        )
 
 # Signing key for the OAuth2/OIDC provider, in PEM format. Only needed to act as
 # an identity provider, so no warning when it is unset. Newlines can be written
@@ -136,6 +189,13 @@ RECAPTCHA_REQUIRED_SCORE = env.float('RECAPTCHA_REQUIRED_SCORE', 0.75)
 # This is needed for uploaded files and images (exercise images, etc.) to be
 # properly served.
 SITE_URL = env.str('SITE_URL', 'http://localhost:8000')
+
+# Serve /static/ from app finders without collectstatic (Render free / single-container).
+# Default on when running on Render so CSS works without a Blueprint env sync.
+WGER_SERVE_STATIC = env.bool(
+    'WGER_SERVE_STATIC',
+    bool(env.str('RENDER', '') or env.str('RENDER_SERVICE_ID', '')),
+)
 
 # Path to uploaded files
 # Absolute filesystem path to the directory that will hold user-uploaded files.
