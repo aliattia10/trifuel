@@ -85,12 +85,23 @@ fi
 python3 manage.py set-site-url
 
 # Run the server
-PORT="${WGER_PORT:-8000}"
-if [[ "$WGER_USE_GUNICORN" == "True" ]];
+# Prefer platform PORT (Render/Heroku), then WGER_PORT, then 8000.
+PORT="${PORT:-${WGER_PORT:-8000}}"
+# Production / PaaS: always gunicorn unless explicitly disabled.
+USE_GUNICORN="${WGER_USE_GUNICORN:-}"
+if [[ -z "$USE_GUNICORN" ]]; then
+    if [[ "$DJANGO_DEBUG" == "False" || -n "${RENDER:-}" || -n "${RENDER_SERVICE_ID:-}" ]]; then
+        USE_GUNICORN="True"
+    else
+        USE_GUNICORN="False"
+    fi
+fi
+
+if [[ "$USE_GUNICORN" == "True" ]];
 then
     echo "Using gunicorn on port $PORT..."
-    gunicorn wger.wsgi:application --preload --bind 0.0.0.0:$PORT
+    exec gunicorn wger.wsgi:application --preload --bind 0.0.0.0:$PORT
 else
     echo "Using django's development server on port $PORT..."
-    python3 manage.py runserver 0.0.0.0:$PORT
+    exec python3 manage.py runserver 0.0.0.0:$PORT
 fi

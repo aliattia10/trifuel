@@ -13,6 +13,10 @@ services:
         value: settings.main
       - key: DJANGO_DEBUG
         value: "False"
+      - key: WGER_USE_GUNICORN
+        value: "True"
+      - key: AXES_ENABLED
+        value: "False"
       - key: SITE_URL
         value: https://trifuel.trifuel.workers.dev
       - key: CSRF_TRUSTED_ORIGINS
