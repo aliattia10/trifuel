@@ -1,0 +1,256 @@
+/* TriFuel landing — sage + paper, no stock wger blue. */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/static/fonts/bebas_neue/BebasNeue-Regular.woff");
+}
+
+:root {
+    --ink: #0c0f0e;
+    --paper: #f7f7f5;
+    --sage: #2f6f5e;
+    --sage-soft: #3d8f78;
+    --mist: #e8ebe8;
+    --muted: #5c665f;
+    --line: #d8ddd8;
+    --danger: #b42318;
+    /* Keep legacy names mapped so remaining template classes still paint TriFuel. */
+    --blue: var(--sage);
+    --green: var(--sage-soft);
+    --red: #8b4a3a;
+    --dark-yellow: #6b7c5a;
+    --bg-blue: var(--sage);
+    --bg-light-blue: var(--mist);
+}
+
+html,
+body {
+    font-family: "Manrope", system-ui, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-bebas-neue {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.bg-dark-blue {
+    background-color: var(--sage) !important;
+    border: 0;
+    color: #fff !important;
+}
+
+.bg-dark-blue:hover {
+    background-color: var(--sage-soft) !important;
+    color: #fff !important;
+}
+
+.bg-light-blue {
+    background-color: var(--mist);
+}
+
+.text-dark-blue {
+    color: var(--sage) !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--sage);
+    --bs-btn-border-color: var(--sage);
+    --bs-btn-hover-bg: var(--sage-soft);
+    --bs-btn-hover-border-color: var(--sage-soft);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--sage);
+    --bs-btn-border-color: var(--sage);
+    --bs-btn-hover-bg: var(--sage);
+    --bs-btn-hover-border-color: var(--sage);
+}
+
+.btn-transparent {
+    color: var(--ink);
+    border: 1px solid var(--line);
+    background: #fff;
+}
+
+.navbar-brand {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.06em;
+    color: var(--ink) !important;
+}
+
+.navbar-brand.trifuel-mark img {
+    display: block;
+    height: 28px;
+}
+
+.nav-link {
+    color: var(--muted) !important;
+}
+
+.nav-link:hover {
+    color: var(--ink) !important;
+}
+
+ul.hex-bullet {
+    padding-left: 0;
+}
+
+ul.hex-bullet li {
+    list-style-type: none;
+    margin-bottom: 0.6rem;
+    line-height: 1.45;
+}
+
+ul.hex-bullet li::before {
+    content: '●';
+    font-size: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+ul.bullet-red li::before,
+ul.bullet-dark-yellow li::before,
+ul.bullet-green li::before {
+    color: var(--sage);
+}
+
+header {
+    background: linear-gradient(165deg, #eef3ef 0%, var(--paper) 55%, #f3f6f3 100%);
+    min-height: 70vh;
+}
+
+.header-hero-image {
+    height: 420px;
+    width: 420px;
+    object-fit: cover;
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(12, 15, 14, 0.12);
+}
+
+header h1 {
+    color: var(--ink);
+    line-height: 1.05;
+}
+
+header .col-lg-3 p,
+header .col-lg-3 p b {
+    color: var(--muted);
+    font-weight: 400;
+}
+
+header .col-lg-3 p b {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+ul {
+    text-align: justify;
+}
+
+.sign-up-bg {
+    background-image: none;
+    background: var(--mist);
+    border-radius: 24px;
+    height: auto;
+    min-height: 420px;
+    padding: 3rem 1rem;
+}
+
+.header-community span,
+.header-progress span,
+.header-meals span,
+.header-workout span {
+    color: var(--sage);
+    display: block;
+}
+
+.bg-bottom-menu {
+    background: linear-gradient(180deg, #1a2e28 0%, #0c0f0e 100%);
+}
+
+main {
+    background-color: var(--paper);
+    min-height: 100vh;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.heading-h6 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.footer-bg {
+    background-color: #0c0f0e;
+}
+
+footer a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #c5ccc6;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.trifuel-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    font-size: 1.35rem;
+    color: var(--ink);
+}
+
+.trifuel-mark-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--sage);
+}
+
+@media screen and (max-width: 900px) {
+    .flex-reverse {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-hero-image {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .main-section {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    header {
+        min-height: auto;
+    }
+}

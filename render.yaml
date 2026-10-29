@@ -1,0 +1,63 @@
+services:
+  - type: web
+    name: trifuel-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: main
+    dockerfilePath: ./extras/docker/production/Dockerfile
+    dockerContext: .
+    healthCheckPath: /en/trifuel/
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: settings.main
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: SITE_URL
+        value: https://trifuel.trifuel.workers.dev
+      - key: CSRF_TRUSTED_ORIGINS
+        value: https://trifuel.trifuel.workers.dev,https://*.onrender.com
+      - key: WGER_ALLOW_REGISTRATION
+        value: "True"
+      - key: WGER_ALLOW_GUEST_USERS
+        value: "False"
+      - key: SYNC_EXERCISES_ON_STARTUP
+        value: "False"
+      - key: DOWNLOAD_EXERCISE_IMAGES_ON_STARTUP
+        value: "False"
+      - key: LOAD_ONLINE_FIXTURES_ON_STARTUP
+        value: "False"
+      - key: DJANGO_PERFORM_MIGRATIONS
+        value: "True"
+      - key: DJANGO_DB_ENGINE
+        value: django.db.backends.postgresql
+      - fromDatabase:
+          name: trifuel-db
+          property: connectionString
+        key: PS_DATABASE_URI
+      - fromDatabase:
+          name: trifuel-db
+          property: host
+        key: DJANGO_DB_HOST
+      - fromDatabase:
+          name: trifuel-db
+          property: port
+        key: DJANGO_DB_PORT
+      - fromDatabase:
+          name: trifuel-db
+          property: user
+        key: DJANGO_DB_USER
+      - fromDatabase:
+          name: trifuel-db
+          property: password
+        key: DJANGO_DB_PASSWORD
+      - fromDatabase:
+          name: trifuel-db
+          property: database
+        key: DJANGO_DB_DATABASE
+
+databases:
+  - name: trifuel-db
+    plan: free
+    region: frankfurt
+    postgresMajorVersion: "16"

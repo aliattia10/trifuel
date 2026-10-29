@@ -1,0 +1,49 @@
+{% extends "trifuel/base.html" %}
+{% block title %}TriFuel — Onboarding{% endblock %}
+{% block content %}
+  <h1 style="font-size:1.75rem; letter-spacing:-.03em; margin:0 0 .35rem;">Tell TriFuel about you</h1>
+  <p class="lede" style="margin-bottom:1rem;">We’ll build a starter meal plan from your numbers. You can refine later.</p>
+  <form method="post" class="panel" novalidate>
+    {% csrf_token %}
+    <label for="first_name">Name</label>
+    <input id="first_name" name="first_name" value="{{ values.first_name }}" placeholder="Attia" autocomplete="given-name">
+
+    <div class="grid-2">
+      <div>
+        <label for="age">Age</label>
+        <input id="age" name="age" inputmode="numeric" value="{{ values.age }}" placeholder="26">
+        {% if errors.age %}<div class="error">{{ errors.age }}</div>{% endif %}
+      </div>
+      <div>
+        <label for="height_cm">Height (cm)</label>
+        <input id="height_cm" name="height_cm" inputmode="numeric" value="{{ values.height_cm }}" placeholder="175">
+        {% if errors.height_cm %}<div class="error">{{ errors.height_cm }}</div>{% endif %}
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label for="weight_kg">Weight (kg)</label>
+        <input id="weight_kg" name="weight_kg" inputmode="decimal" value="{{ values.weight_kg }}" placeholder="50">
+        {% if errors.weight_kg %}<div class="error">{{ errors.weight_kg }}</div>{% endif %}
+      </div>
+      <div>
+        <label for="activity_hours">Training hours / week</label>
+        <input id="activity_hours" name="activity_hours" inputmode="numeric" value="{{ values.activity_hours }}" placeholder="6">
+      </div>
+    </div>
+
+    <label for="goal">Goal</label>
+    <select id="goal" name="goal">
+      {% for key, preset in goals.items %}
+        <option value="{{ key }}" {% if values.goal == key %}selected{% endif %}>
+          {{ preset.label }} — {{ preset.energy }} kcal / {{ preset.protein }}g protein
+        </option>
+      {% endfor %}
+    </select>
+
+    <div style="margin-top:1.5rem;">
+      <button type="submit" class="btn btn-primary" style="width:100%;">Generate my plan</button>
+    </div>
+  </form>
+{% endblock %}

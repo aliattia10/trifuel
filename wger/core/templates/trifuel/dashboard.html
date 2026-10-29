@@ -1,0 +1,59 @@
+{% extends "trifuel/base.html" %}
+{% block title %}TriFuel — {{ display_name }}{% endblock %}
+{% block content %}
+  <h1 style="font-size:1.85rem; letter-spacing:-.03em; margin:0 0 .35rem;">Hey {{ display_name }}</h1>
+  <p class="lede">
+    {% if plan %}{{ plan.description }}{% else %}Your TriFuel dashboard{% endif %}
+  </p>
+
+  <div class="grid-2">
+    <div class="panel">
+      <h2>You</h2>
+      <p class="meta" style="margin:0;">
+        {% if age %}Age {{ age }} · {% endif %}
+        {% if profile.height %}{{ profile.height }} cm · {% endif %}
+        {% if weight %}{{ weight }} kg{% endif %}
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Next fuel reminder</h2>
+      <p class="meta" style="margin:0; font-size:1.35rem; font-weight:700; color:var(--ink);">
+        {{ next_reminder|time:"H:i" }}
+      </p>
+      <p class="meta" style="margin:.35rem 0 0;">Every 2–4 hours while you’re awake.</p>
+    </div>
+  </div>
+
+  {% if plan %}
+  <div class="panel">
+    <h2>Today’s plan</h2>
+    <p class="meta" style="margin:0 0 1rem;">
+      Target {{ plan.goal_energy }} kcal · {{ plan.goal_protein }}g protein
+      · {{ plan.goal_carbohydrates }}g carbs · {{ plan.goal_fat }}g fat
+    </p>
+    {% for meal in meals %}
+      <div class="meal-row">
+        <div>
+          <strong>{{ meal.name }}</strong>
+          {% if meal.time %}<span class="meta"> · {{ meal.time|time:"H:i" }}</span>{% endif %}
+          <div class="meta">
+            {% for item in meal.mealitem_set.all %}
+              {{ item.ingredient.name }}{% if not forloop.last %}; {% endif %}
+            {% empty %}
+              —
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="meta">No meals on this plan yet.</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1.25rem;">
+    <a class="btn btn-primary" href="{% url 'nutrition:plan:overview' %}">Open meal plans</a>
+    <a class="btn btn-ghost" href="{% url 'manager:routine:overview' %}">Training</a>
+    <a class="btn btn-ghost" href="{% url 'core:trifuel-onboarding' %}">Update profile</a>
+  </div>
+{% endblock %}

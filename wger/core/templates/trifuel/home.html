@@ -1,0 +1,18 @@
+{% extends "trifuel/base.html" %}
+{% block title %}TriFuel — Fuel · train · recover{% endblock %}
+{% block content %}
+  <p class="hero-brand">TriFuel</p>
+  <p class="lede">
+    Your private tracker for an aggressive bulk — meals every few hours, training logs,
+    and weight progress. Built for you, not a community brochure.
+  </p>
+  <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-bottom:2rem;">
+    <a class="btn btn-primary" href="{% url 'core:user:registration' %}">Create your plan</a>
+    <a class="btn btn-ghost" href="{% url 'core:user:login' %}">I already have an account</a>
+  </div>
+  <div class="panel">
+    <h2>What you’ll set up</h2>
+    <p class="meta" style="margin:0 0 .75rem;">Name, age, height, weight, and goal — then we generate a meal cadence aimed at your surplus.</p>
+    <p class="meta" style="margin:0;">Reminders fire every 2–4 hours during the day so fuel doesn’t slip.</p>
+  </div>
+{% endblock %}

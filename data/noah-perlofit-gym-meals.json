@@ -1,0 +1,1709 @@
+{
+  "dataset": "noahperlofit-meal-prep",
+  "version": "2026-10-15",
+  "count": 59,
+  "provenance": "Compiled from 59 public @noahperlofit Instagram reels. Macros, costs and serving counts are the creator's stated claims, not lab-verified. Prices in USD. null = not stated by the creator.",
+  "meals": [
+    {
+      "id": "mcdonald-s-style-breakfast-sandwiches",
+      "name": "McDonald's-Style Breakfast Sandwiches",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DZA1bYjxRqY/",
+      "posted": "2026-05-31",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 428,
+        "protein_g": 46,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.8,
+      "key_ingredients": [
+        "1 kg ground turkey + 1 kg ground beef",
+        "sugar-free maple syrup",
+        "light English muffins",
+        "mustard-honey sauce",
+        "avocado",
+        "pepper jack",
+        "egg",
+        "green apple"
+      ],
+      "method": "Mix meats with seasonings and syrup, form and cook patties. Assemble muffins with sauce, avocado, patty, cheese, egg, apple.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "breakfast-sandwich-batch",
+      "name": "Breakfast Sandwich Batch",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DR7wImnEfH-/",
+      "posted": "2025-12-06",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 430,
+        "protein_g": 39,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "High-protein breakfast sandwich build (eggs, lean meat, cheese, light bread/muffin)"
+      ],
+      "method": "Batch-cook components, assemble sandwiches, portion for the week.",
+      "storage": "Sunday batch cook",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "breakfast-burritos",
+      "name": "Breakfast Burritos",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DWkSNI5DtNb/",
+      "posted": "2026-03-31",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 658,
+        "protein_g": 66,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 4.2,
+      "key_ingredients": [
+        "High-protein breakfast burrito build (eggs/egg whites, lean meat, cheese, low-carb tortillas)"
+      ],
+      "method": "Cook fillings, assemble burritos, wrap and freeze.",
+      "storage": "Freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "breakfast-sandwiches-x16",
+      "name": "Breakfast Sandwiches x16",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DVZWeKCEq9O/",
+      "posted": "2026-03-02",
+      "servings_per_batch": 16,
+      "per_serving": {
+        "kcal": 301,
+        "protein_g": 19,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.9,
+      "key_ingredients": [
+        "High-protein breakfast sandwich build for 16 (eggs, lean meat, cheese, light bread)"
+      ],
+      "method": "Batch-cook and assemble 16 sandwiches; portion for the week.",
+      "storage": "Weekend batch prep",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "8-minute-breakfast-sandwich",
+      "name": "8-Minute Breakfast Sandwich",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DSK0ZcyDcpu/",
+      "posted": "2025-12-12",
+      "servings_per_batch": 1,
+      "per_serving": {
+        "kcal": 360,
+        "protein_g": 30,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Bacon",
+        "egg",
+        "cheese",
+        "bread/muffin"
+      ],
+      "method": "Sizzle bacon, fry egg, assemble hot breakfast sandwich in about 8 minutes.",
+      "storage": "Made fresh",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "fluffy-protein-pancakes",
+      "name": "Fluffy Protein Pancakes",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DWOynI3DV_m/",
+      "posted": "2026-03-23",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 138,
+        "protein_g": 10,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Protein pancake batter (protein powder/flour, egg/egg whites)"
+      ],
+      "method": "Mix batter, cook fluffy pancakes, portion for the week.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "high-protein-french-toast",
+      "name": "High-Protein French Toast",
+      "category": "breakfast",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DdDQgnBt3g1/",
+      "posted": "2026-09-09",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 224,
+        "protein_g": 13,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 0.7,
+      "key_ingredients": [
+        "2 brioche loaves",
+        "whole eggs + egg whites",
+        "cinnamon",
+        "stevia",
+        "vanilla; dark chocolate",
+        "powdered sugar",
+        "syrup"
+      ],
+      "method": "Soak sliced brioche in egg-white custard; pan-fry golden. Finish with chocolate, sugar, syrup.",
+      "storage": "Freezer and reheat up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "chimichurri-steak-subs",
+      "name": "Chimichurri Steak Subs",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/Dc4l6olvUHF/",
+      "posted": "2026-09-04",
+      "servings_per_batch": 12,
+      "per_serving": {
+        "kcal": 505,
+        "protein_g": 55,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 4.2,
+      "key_ingredients": [
+        "NY strip steak",
+        "baguettes",
+        "chimichurri (parsley, cilantro, oregano, garlic, olive oil, vinegar)",
+        "ultra-thin provolone"
+      ],
+      "method": "Season and sear steaks, slice thin. Blend chimichurri. Hollow baguettes, spread sauce inside, add steak and provolone.",
+      "storage": "Fridge/freezer; meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "chimichurri-steak-panini",
+      "name": "Chimichurri Steak Panini",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DYU7B67tDZr/",
+      "posted": "2026-05-14",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 552,
+        "protein_g": 44,
+        "carbs_g": 49,
+        "fat_g": 20
+      },
+      "cost_usd_per_serving": 3.95,
+      "key_ingredients": [
+        "2 kg trimmed NY strip",
+        "chimichurri",
+        "sweet pickled red onions",
+        "Swiss cheese",
+        "panini bread"
+      ],
+      "method": "Reverse-sear seasoned steaks, slice thin. Make chimichurri. Assemble bread + chimichurri + steak + onions + Swiss, grill.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "chicken-gyros",
+      "name": "Chicken Gyros",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DXwi2totvBo/",
+      "posted": "2026-04-30",
+      "servings_per_batch": 16,
+      "per_serving": {
+        "kcal": 375,
+        "protein_g": 30,
+        "carbs_g": 39,
+        "fat_g": 11
+      },
+      "cost_usd_per_serving": 3.0,
+      "key_ingredients": [
+        "2 kg chicken thighs",
+        "pita bread",
+        "tzatziki (Greek yogurt, cucumber, dill, garlic)",
+        "tomato",
+        "red onion"
+      ],
+      "method": "Season and bake chicken thighs. Blend tzatziki. Assemble pita + sauce + chicken + tomato + onion; wrap in foil.",
+      "storage": "Foil-wrapped; freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "chicken-bacon-ranch-pockets",
+      "name": "Chicken Bacon Ranch Pockets",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DaCE0rRNjc2/",
+      "posted": "2026-06-26",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 380,
+        "protein_g": 40,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.9,
+      "key_ingredients": [
+        "1 kg chicken thighs",
+        "turkey bacon",
+        "low-carb tortillas",
+        "mozzarella",
+        "non-fat ranch",
+        "ranch seasoning"
+      ],
+      "method": "Bake ranch-seasoned chicken; cook diced turkey bacon. Fill tortillas (quarter removed), fold and grill.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "chicken-pesto-panini",
+      "name": "Chicken Pesto Panini",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DW4ylEfjo2L/",
+      "posted": "2026-04-08",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 566,
+        "protein_g": 47,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.5,
+      "key_ingredients": [
+        "Chicken",
+        "pesto",
+        "panini bread",
+        "cheese"
+      ],
+      "method": "Batch-cook pesto chicken, assemble grilled panini sandwiches, wrap in foil.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "cuban-style-sandwich",
+      "name": "Cuban-Style Sandwich",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DWEpa-1DUUA/",
+      "posted": "2026-03-19",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 558,
+        "protein_g": 58,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.1,
+      "key_ingredients": [
+        "Low-calorie high-protein Cuban-style sandwich build (pork/chicken, ham, pickles, mustard, Swiss-style cheese, pressed bread)"
+      ],
+      "method": "Layer Cuban-style fillings, press/grill, portion for the week.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "cowboy-butter-chicken-sandwiches",
+      "name": "Cowboy Butter Chicken Sandwiches",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/Dbi7WQvhzPG/",
+      "posted": "2026-08-02",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 475,
+        "protein_g": 43,
+        "carbs_g": 33,
+        "fat_g": 19
+      },
+      "cost_usd_per_serving": 3.1,
+      "key_ingredients": [
+        "1.5 kg chicken thighs",
+        "cowboy butter (garlic, scallions, parsley)",
+        "baguettes",
+        "provolone",
+        "hot honey"
+      ],
+      "method": "Bake seasoned chicken. Mix herb butter. Assemble hollowed baguettes with butter, chicken, provolone, hot honey.",
+      "storage": "Foil-wrapped portions",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "buffalo-chicken-panini",
+      "name": "Buffalo Chicken Panini",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/Da6PLkZBN5o/",
+      "posted": "2026-07-17",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 504,
+        "protein_g": 40,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 4.0,
+      "key_ingredients": [
+        "Chicken thighs",
+        "buffalo seasoning",
+        "ranch sauce",
+        "provolone",
+        "baguettes"
+      ],
+      "method": "Cook buffalo-seasoned chicken. Fill hollowed baguettes with ranch, chicken, provolone; press.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "meatball-subs",
+      "name": "Meatball Subs",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DZnoMrqzvje/",
+      "posted": "2026-06-15",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 480,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.7,
+      "key_ingredients": [
+        "Lean meatballs",
+        "sub rolls",
+        "sauce",
+        "cheese"
+      ],
+      "method": "Batch-cook meatballs, assemble subs with sauce and cheese, wrap in foil.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "korean-fried-chicken-sandwiches",
+      "name": "Korean Fried Chicken Sandwiches",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DX4oxOAlvHc/",
+      "posted": "2026-05-03",
+      "servings_per_batch": 16,
+      "per_serving": {
+        "kcal": 550,
+        "protein_g": 44,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken thighs",
+        "fried-chicken breading",
+        "Korean-style sauce",
+        "sandwich rolls"
+      ],
+      "method": "Bread and cook chicken thighs, sauce them, assemble sandwiches, wrap in foil.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "steak-naan-sandwich-greek-yogurt-naan",
+      "name": "Steak Naan Sandwich (Greek-Yogurt Naan)",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DRh0wAUkYFN/",
+      "posted": "2025-11-26",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Naan (Greek yogurt + self-rising flour + garlic)",
+        "marinated steak",
+        "veggies",
+        "tzatziki"
+      ],
+      "method": "Mix yogurt and flour into naan dough, pan-fry. Top with steak, veggies, tzatziki; fold into sandwich.",
+      "storage": "Cook fresh; components meal-prep friendly",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "shawarma-steak-wrap-homemade-pita",
+      "name": "Shawarma Steak Wrap (Homemade Pita)",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DTHPohvjdOI/",
+      "posted": "2026-01-05",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 394,
+        "protein_g": 34,
+        "carbs_g": 26,
+        "fat_g": 17
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Pita (self-rising flour + non-fat Greek yogurt)",
+        "lean steak tip (cumin, paprika, cayenne, sumac, garlic)",
+        "veggies",
+        "herbed yogurt spread"
+      ],
+      "method": "Mix and pan-fry pita dough. Sear spiced steak. Layer steak, veggies and yogurt spread in pita.",
+      "storage": "Pita dough preps well",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "marinated-steak-sandwiches-open-faced",
+      "name": "Marinated Steak Sandwiches (Open-Faced)",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DeDBCiSN0_R/",
+      "posted": "2026-10-03",
+      "servings_per_batch": 12,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 4.6,
+      "key_ingredients": [
+        "6 steaks (soy, garlic, jalapeno, cilantro, lime marinade)",
+        "corn salsa",
+        "mayo",
+        "red onion",
+        "cheese",
+        "toasted bread"
+      ],
+      "method": "Marinate and pan-cook steaks, slice thin. Make corn salsa. Assemble open-faced sandwiches; top and grill.",
+      "storage": "Freezer and reheat for months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "honey-mustard-chicken-sandwiches",
+      "name": "Honey Mustard Chicken Sandwiches",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DbEb9yzh4Ah/",
+      "posted": "2026-07-21",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": 504,
+        "protein_g": 35,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.3,
+      "key_ingredients": [
+        "Chicken thighs",
+        "flour/egg/crushed-cornflake breading",
+        "honey mustard",
+        "sandwich rolls"
+      ],
+      "method": "Bread chicken (flour, egg, cornflakes) and bake instead of frying. Assemble with honey mustard.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "thick-bacon-cheeseburgers-chatgpt-episode",
+      "name": "Thick Bacon Cheeseburgers (ChatGPT Episode)",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DaxxmVzRmLd/",
+      "posted": "2026-07-14",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "6 lbs 96/4 ground beef",
+        "turkey bacon",
+        "thin American cheese",
+        "brioche buns",
+        "light mayo sauce",
+        "caramelized onion"
+      ],
+      "method": "Form and cook lean patties; add cheese. Assemble with sauce, turkey bacon, onions; wrap.",
+      "storage": "Foil-wrapped portions",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "chicken-shawarma",
+      "name": "Chicken Shawarma",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DVFrkAPDPfQ/",
+      "posted": "2026-02-23",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 445,
+        "protein_g": 39,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Shawarma-spiced chicken",
+        "wrap/pita",
+        "garlic sauce",
+        "veggies"
+      ],
+      "method": "Cook spiced chicken, slice, assemble shawarma wraps.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "nashville-hot-chicken-sandwiches",
+      "name": "Nashville Hot Chicken Sandwiches",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DWZ0W7zDhTM/",
+      "posted": "2026-03-27",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 529,
+        "protein_g": 56,
+        "carbs_g": 47,
+        "fat_g": 13
+      },
+      "cost_usd_per_serving": 3.1,
+      "key_ingredients": [
+        "Chicken thighs",
+        "cornflake breading (flour, egg + egg whites, cornflakes)",
+        "hot sauce (Frank's RedHot, brown sugar substitute, honey, butter)",
+        "brioche buns",
+        "pickles"
+      ],
+      "method": "Bread and bake chicken; brush with hot sauce. Assemble on brioche with pickles.",
+      "storage": "Foil-wrapped",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "honey-bbq-chicken-sliders",
+      "name": "Honey BBQ Chicken Sliders",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DQVOIVCDaEd/",
+      "posted": "2025-10-27",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 249,
+        "protein_g": 22,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken",
+        "honey BBQ sauce",
+        "slider rolls"
+      ],
+      "method": "Cook chicken in honey BBQ sauce; assemble sliders.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "low-calorie-chicken-gyro",
+      "name": "Low-Calorie Chicken Gyro",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DPeS4ACDdKI/",
+      "posted": "2025-10-06",
+      "servings_per_batch": 1,
+      "per_serving": {
+        "kcal": 309,
+        "protein_g": 34,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken",
+        "gyro spices",
+        "pita/wrap",
+        "tzatziki-style sauce",
+        "veggies"
+      ],
+      "method": "Sear spiced chicken; assemble gyro with sauce and veggies.",
+      "storage": "Made fresh",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "cheeseburger-sliders",
+      "name": "Cheeseburger Sliders",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DbZcPr6pMIc/",
+      "posted": "2026-07-30",
+      "servings_per_batch": 24,
+      "per_serving": {
+        "kcal": 237,
+        "protein_g": 26,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 1.0,
+      "key_ingredients": [
+        "6 lbs lean ground beef",
+        "slider rolls",
+        "cheese"
+      ],
+      "method": "Press seasoned beef onto sheet pan, bake, layer cheese; assemble on slab of rolls, cut into sliders.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "buffalo-chicken-ranch-sandwiches",
+      "name": "Buffalo Chicken Ranch Sandwiches",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DdtwrLYtOiT/",
+      "posted": "2026-09-25",
+      "servings_per_batch": 12,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": 50,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.55,
+      "key_ingredients": [
+        "Chicken thighs",
+        "buffalo seasoning",
+        "ranch sauce",
+        "provolone",
+        "baguettes"
+      ],
+      "method": "Cook buffalo-seasoned chicken. Fill hollowed baguettes with ranch, chicken, provolone.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "thick-bacon-sliders",
+      "name": "Thick Bacon Sliders",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DXUZwRhEWz3/",
+      "posted": "2026-04-19",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 249,
+        "protein_g": 28,
+        "carbs_g": 18,
+        "fat_g": 7
+      },
+      "cost_usd_per_serving": 1.8,
+      "key_ingredients": [
+        "6 lbs 96/4 ground beef",
+        "turkey bacon-onion jam (honey, brown stevia)",
+        "light mayo",
+        "low-fat American cheese",
+        "slider rolls"
+      ],
+      "method": "Bake sheet-pan beef patty; make sweet-heat bacon jam. Assemble slab sliders with mayo, patty, cheese, jam.",
+      "storage": "Foil-wrapped",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "thick-bacon-sliders-what-s-the-catch",
+      "name": "Thick Bacon Sliders (What's the Catch?)",
+      "category": "sandwiches",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DT_U5FUiUSu/",
+      "posted": "2026-01-26",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 190,
+        "protein_g": 18,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "3 lbs 96/4 ground beef",
+        "turkey bacon",
+        "roasted onions",
+        "American cheese",
+        "Hawaiian rolls",
+        "light mayo/ketchup/mustard"
+      ],
+      "method": "Bake sheet-pan beef with cheese and bacon; assemble on connected rolls with sauce and onions.",
+      "storage": "Foil-wrapped",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ],
+      "duplicate_concept_of": "thick-bacon-sliders"
+    },
+    {
+      "id": "steak-cheese-burritos",
+      "name": "Steak & Cheese Burritos",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DU8-7SwEqYM/",
+      "posted": "2026-02-19",
+      "servings_per_batch": 16,
+      "per_serving": {
+        "kcal": 565,
+        "protein_g": 48,
+        "carbs_g": 57,
+        "fat_g": 16
+      },
+      "cost_usd_per_serving": 3.8,
+      "key_ingredients": [
+        "1 kg lean steak",
+        "3 cups dry rice",
+        "low-fat Mexican cheese",
+        "green sauce (cream cheese, cilantro, lime, avocado, sour cream, jalapeno, shallot)",
+        "low-carb tortillas"
+      ],
+      "method": "Sear seasoned steak, chop. Cook rice. Blend green sauce. Assemble tortillas with rice, steak, cheese; fry sealed.",
+      "storage": "Freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "harissa-chicken-burritos-with-pineapple-salsa",
+      "name": "Harissa Chicken Burritos with Pineapple Salsa",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DYM_kx3x2s1/",
+      "posted": "2026-05-11",
+      "servings_per_batch": 12,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.9,
+      "key_ingredients": [
+        "Chicken thighs",
+        "harissa",
+        "paprika",
+        "pineapple",
+        "cilantro",
+        "Greek-yogurt herb sauce",
+        "rice",
+        "cheese",
+        "low-carb tortillas"
+      ],
+      "method": "Cook harissa-seasoned chicken. Char pineapple with red pepper flakes. Blend herb yogurt sauce. Assemble and roll.",
+      "storage": "Freezer and reheat up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "chicken-cheese-tacos-what-s-the-catch",
+      "name": "Chicken & Cheese Tacos (What's the Catch?)",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DUJl4gcj722/",
+      "posted": "2026-01-30",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 260,
+        "protein_g": 28,
+        "carbs_g": 20,
+        "fat_g": 4
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken thighs",
+        "pico de gallo (tomato, green bell pepper, red onion, cilantro)",
+        "low-fat Mexican cheese",
+        "low-carb tortillas"
+      ],
+      "method": "Bake seasoned chicken strips. Dice fresh salsa. Assemble tacos with chicken, salsa, cheese; wrap in foil.",
+      "storage": "Foil-wrapped for the week",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "nashville-hot-chicken-cutlet-crunchwraps",
+      "name": "Nashville Hot Chicken Cutlet Crunchwraps",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DdMZobOByWI/",
+      "posted": "2026-09-12",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": 45,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken breast cutlets",
+        "seasoned breadcrumbs",
+        "Frank's RedHot",
+        "purple cabbage",
+        "pickles",
+        "mozzarella",
+        "low-carb wraps"
+      ],
+      "method": "Pound, bread and bake chicken cutlets; brush with hot sauce. Assemble wraps with cabbage, pickles, cheese; griddle folded.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "steak-burritos-with-cilantro-lime-rice-street-corn-salsa",
+      "name": "Steak Burritos with Cilantro-Lime Rice & Street-Corn Salsa",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DZs7kKZMTe7/",
+      "posted": "2026-06-17",
+      "servings_per_batch": 14,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 4.1,
+      "key_ingredients": [
+        "Lean steak",
+        "cilantro-lime rice",
+        "charred street-corn salsa",
+        "cheese",
+        "tortillas"
+      ],
+      "method": "Grill seasoned steak, dice. Make cilantro-lime rice and corn salsa. Assemble burritos.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "chipotle-chicken-burritos",
+      "name": "Chipotle Chicken Burritos",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DVxC7H1Db5L/",
+      "posted": "2026-03-12",
+      "servings_per_batch": 13,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "2.5 lbs chicken thighs",
+        "chipotle in adobo",
+        "rice",
+        "black beans",
+        "corn",
+        "cilantro",
+        "cheese",
+        "tortillas"
+      ],
+      "method": "Bake chipotle-seasoned chicken, chop. Assemble burritos with rice, beans, corn, chicken, cheese; toast.",
+      "storage": "Foil-wrapped; freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "crunchwraps",
+      "name": "Crunchwraps",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DUjbN5el-3Q/",
+      "posted": "2026-02-09",
+      "servings_per_batch": 18,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.5,
+      "key_ingredients": [
+        "2.7 kg 96% lean ground beef",
+        "romaine",
+        "tomato",
+        "cheese",
+        "sour cream",
+        "large + small tortillas"
+      ],
+      "method": "Cook seasoned beef. Layer meat, lettuce, tomato, cheese, sour cream; top with small tortilla, fold, crisp.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "birria-tacos",
+      "name": "Birria Tacos",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DSDfe-XjqCm/",
+      "posted": "2025-12-09",
+      "servings_per_batch": 24,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": 63,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Beef (slow-cooked)",
+        "birria-style sauce (tomatoes, onion, peppers, spices)",
+        "tortillas",
+        "lime"
+      ],
+      "method": "Slow-cook beef in birria sauce until shreddable. Pan-sear tacos in the sauce; serve with consomme.",
+      "storage": "Freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "slow-cooker-chipotle-chicken-tacos",
+      "name": "Slow-Cooker Chipotle Chicken Tacos",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DcmWbcwBBps/",
+      "posted": "2026-08-28",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.1,
+      "key_ingredients": [
+        "Chicken thighs",
+        "chipotle peppers",
+        "garlic",
+        "onion",
+        "tomato paste",
+        "lime juice",
+        "cheese-topped tortillas",
+        "rice"
+      ],
+      "method": "Slow-cook chicken with chipotle, garlic, onion, tomato paste, lime. Shred; assemble tacos with rice.",
+      "storage": "Freezer and reheat up to 4 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "bbq-bourbon-chicken-burritos-with-peach-salsa",
+      "name": "BBQ Bourbon Chicken Burritos with Peach Salsa",
+      "category": "tacos_burritos",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DcJdyUyBJ7o/",
+      "posted": "2026-08-17",
+      "servings_per_batch": 16,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 2.8,
+      "key_ingredients": [
+        "5 lbs chicken thighs",
+        "bourbon BBQ sauce",
+        "peach salsa (peach, onion, spices, brown sugar substitute)",
+        "garlic herb rice",
+        "low-carb tortillas",
+        "cheese"
+      ],
+      "method": "Bake BBQ-seasoned chicken; slice. Cook peach salsa. Assemble burritos with rice, chicken, salsa, cheese.",
+      "storage": "Foil-wrapped; freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "mongolian-beef-rice-bowls",
+      "name": "Mongolian Beef & Rice Bowls",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DXjsrbLDU36/",
+      "posted": "2026-04-25",
+      "servings_per_batch": 7,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.2,
+      "key_ingredients": [
+        "Lean flank steak",
+        "cornstarch",
+        "soy-ginger-garlic sauce",
+        "rice",
+        "sesame seeds",
+        "scallions"
+      ],
+      "method": "Coat steak in cornstarch, bake, simmer in soy-ginger-garlic sauce. Layer rice and beef in jars.",
+      "storage": "Glass jars; fridge for the week",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "orange-chicken-rice-jars",
+      "name": "Orange Chicken Rice Jars",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DYiP87swe9D/",
+      "posted": "2026-05-19",
+      "servings_per_batch": 10,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.6,
+      "key_ingredients": [
+        "Chicken breast",
+        "orange-soy sauce (orange juice, soy sauce, brown sugar, vinegar)",
+        "rice",
+        "sesame seeds",
+        "green onions"
+      ],
+      "method": "Bake cornstarch-coated chicken, toss in orange sauce. Layer rice and chicken in mason jars.",
+      "storage": "Mason jars; freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "korean-glazed-chicken-jars",
+      "name": "Korean Glazed Chicken Jars",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DaOpoZLu2YJ/",
+      "posted": "2026-06-30",
+      "servings_per_batch": 12,
+      "per_serving": {
+        "kcal": 400,
+        "protein_g": 40,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.41,
+      "key_ingredients": [
+        "2 kg chicken thighs",
+        "glaze (gochujang, ketchup, honey, soy sauce, vinegar, sesame oil, garlic, ginger)",
+        "rice",
+        "sesame",
+        "green onion"
+      ],
+      "method": "Cornstarch-coat and cook diced chicken; toss in glaze. Layer rice and chicken in jars.",
+      "storage": "Glass jars; fridge for the week",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "slow-cooker-spicy-honey-beef-jars",
+      "name": "Slow-Cooker Spicy Honey Beef Jars",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DdU6atIp6CO/",
+      "posted": "2026-09-15",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.8,
+      "key_ingredients": [
+        "Chuck roast",
+        "honey-gochujang-soy sauce (beef stock, soy, honey, tomato paste, vinegar, Worcestershire, sriracha)",
+        "rice"
+      ],
+      "method": "Slow-cook beef chunks in spicy honey sauce. Portion rice and beef into jars.",
+      "storage": "Jars; freezer up to 4 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "rosemary-butter-steak-crispy-yukon-gold-potatoes",
+      "name": "Rosemary-Butter Steak & Crispy Yukon Gold Potatoes",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DRar5zTDQoP/",
+      "posted": "2025-11-23",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 637,
+        "protein_g": 58,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Steak",
+        "rosemary butter",
+        "Yukon Gold potatoes"
+      ],
+      "method": "Sear steak with rosemary butter; crisp potatoes. Portion into meal-prep containers.",
+      "storage": "Meal-prep containers",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "healthier-general-tso-s-chicken-jars",
+      "name": "Healthier General Tso's Chicken Jars",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DbvmLaMR6JI/",
+      "posted": "2026-08-07",
+      "servings_per_batch": 10,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.8,
+      "key_ingredients": [
+        "Chicken thighs",
+        "General Tso's-style sauce (soy sauce, sugar, spices)",
+        "rice",
+        "sesame seeds",
+        "scallions",
+        "chili"
+      ],
+      "method": "Cook chicken, toss in sauce. Layer rice and chicken in mason jars.",
+      "storage": "Mason jars; freezer up to 6 months",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "slow-cooker-beef-barbacoa",
+      "name": "Slow-Cooker Beef Barbacoa",
+      "category": "bowls",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DUrm6AVjaHU/",
+      "posted": "2026-02-13",
+      "servings_per_batch": 6,
+      "per_serving": {
+        "kcal": 325,
+        "protein_g": 47,
+        "carbs_g": 11,
+        "fat_g": 10
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Top round beef",
+        "chipotle in adobo",
+        "lime juice",
+        "garlic",
+        "cumin",
+        "oregano",
+        "smoked paprika",
+        "coriander",
+        "beef broth",
+        "diced tomatoes"
+      ],
+      "method": "Slow-cook 8 hours until shreddable. Shred, portion into containers; serve in tortillas (~18 tacos).",
+      "storage": "Meal-prep containers; fridge/freezer",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "spaghetti-meatballs-week-batch",
+      "name": "Spaghetti & Meatballs (Week Batch)",
+      "category": "pasta",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DZgRP9EMNLS/",
+      "posted": "2026-06-12",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 638,
+        "protein_g": 55,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "High-protein spaghetti and meatball build (lean meatballs, pasta, sauce)"
+      ],
+      "method": "Batch-cook meatballs and sauce; portion with pasta for the week.",
+      "storage": "Week batch",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "creamy-steak-pasta",
+      "name": "Creamy Steak Pasta",
+      "category": "pasta",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DTyjUf_Do8N/",
+      "posted": "2026-01-21",
+      "servings_per_batch": 20,
+      "per_serving": {
+        "kcal": 492,
+        "protein_g": 44,
+        "carbs_g": 61,
+        "fat_g": 8
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Lean steak",
+        "protein pasta",
+        "mushrooms",
+        "cottage-cheese sauce (shallots, garlic, parmesan, fat-free milk)"
+      ],
+      "method": "Sear steak; saute mushrooms. Boil protein pasta. Blend cottage-cheese sauce; combine and portion.",
+      "storage": "Meal-prep containers",
+      "tags": [
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "steak-chimichurri-quesadillas",
+      "name": "Steak Chimichurri Quesadillas",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DYDwwk5tyGo/",
+      "posted": "2026-05-08",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 290,
+        "protein_g": 28,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 1.9,
+      "key_ingredients": [
+        "Steak",
+        "chimichurri",
+        "cheese",
+        "tortillas"
+      ],
+      "method": "Cook steak, fill tortillas with steak, chimichurri and cheese; crisp in pan.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "crispy-chicken-tenders-baked",
+      "name": "Crispy Chicken Tenders (Baked)",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DXF6klwjRQ_/",
+      "posted": "2026-04-14",
+      "servings_per_batch": 20,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Chicken tenders",
+        "seasoned flour",
+        "egg",
+        "crushed cornflakes"
+      ],
+      "method": "Bread tenders in flour, egg, cornflakes; bake until crispy. Portion in foil.",
+      "storage": "Foil portions; freezer up to 6 months; air-fryer reheat",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly"
+      ]
+    },
+    {
+      "id": "steak-cheese-taquitos",
+      "name": "Steak & Cheese Taquitos",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DWuOvr2kV4V/",
+      "posted": "2026-04-04",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 194,
+        "protein_g": 25,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Steak",
+        "cheese",
+        "tortillas"
+      ],
+      "method": "Fill tortillas with steak and cheese, roll tight, bake/air-fry until crisp.",
+      "storage": "Meal-prep friendly",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "beef-arayes",
+      "name": "Beef Arayes",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DVpIMiijwCK/",
+      "posted": "2026-03-08",
+      "servings_per_batch": 10,
+      "per_serving": {
+        "kcal": 480,
+        "protein_g": 45,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 3.0,
+      "key_ingredients": [
+        "Seasoned ground beef",
+        "pita bread"
+      ],
+      "method": "Stuff seasoned beef into pita halves; grill/pan-crisp until cooked through.",
+      "storage": "Foil-wrapped; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "easy-diet-giant-pretzel",
+      "name": "Easy Diet Giant Pretzel",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DTAx6TEjdW1/",
+      "posted": "2026-01-02",
+      "servings_per_batch": 1,
+      "per_serving": {
+        "kcal": 240,
+        "protein_g": 12,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Self-rising flour",
+        "non-fat Greek yogurt",
+        "egg",
+        "kosher salt"
+      ],
+      "method": "Mix flour and yogurt into dough, shape pretzel, egg-wash, salt, air-fry/bake.",
+      "storage": "Made fresh daily",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "meal-prep-pasta-blocks-2-sauces",
+      "name": "Meal Prep Pasta Blocks (2 Sauces)",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DZ24UF5NM9Z/",
+      "posted": "2026-06-21",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": null,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Sauce 1: roasted red pepper",
+        "tomato",
+        "chicken breast",
+        "cottage cheese",
+        "broth. Sauce 2: spinach",
+        "basil",
+        "parmesan",
+        "cottage cheese",
+        "broth"
+      ],
+      "method": "Cook each sauce, blend smooth, pour into silicone molds and freeze. Reheat a block with cooked pasta.",
+      "storage": "Frozen blocks up to 6 months",
+      "tags": [
+        "meal-prep"
+      ]
+    },
+    {
+      "id": "better-taquito-sunday",
+      "name": "Better Taquito Sunday",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DTVjKUIDWwD/",
+      "posted": "2026-01-10",
+      "servings_per_batch": 36,
+      "per_serving": {
+        "kcal": 83,
+        "protein_g": 11,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "800 g chicken breast",
+        "low-fat Mexican cheese",
+        "low-carb tortillas",
+        "spices (salt, pepper, paprika, cumin, garlic, cayenne)"
+      ],
+      "method": "Cook seasoned chicken, mix with cheese, roll in tortillas, bake until crisp.",
+      "storage": "Baked; freezer friendly",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "high-protein-naan-bread",
+      "name": "High-Protein Naan Bread",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DbOlnJ-BlkI/",
+      "posted": "2026-07-25",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 97,
+        "protein_g": 5,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Low-fat cottage cheese",
+        "self-rising flour"
+      ],
+      "method": "Blend cottage cheese, mix with flour into dough, pan-cook flatbreads.",
+      "storage": "Stacks; fridge/freezer",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "easy-crunchy-bread-sticks",
+      "name": "Easy Crunchy Bread Sticks",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/DRqUXJ-DQU6/",
+      "posted": "2026-01-02",
+      "servings_per_batch": 10,
+      "per_serving": {
+        "kcal": 242,
+        "protein_g": 12,
+        "carbs_g": 45,
+        "fat_g": 1
+      },
+      "cost_usd_per_serving": null,
+      "key_ingredients": [
+        "Leftover yogurt",
+        "flour",
+        "baking powder",
+        "avocado oil spray",
+        "salt",
+        "rosemary; hummus for dipping"
+      ],
+      "method": "Mix yogurt, flour, baking powder; roll into sticks, spritz with oil, air-fry at 350F; season.",
+      "storage": "Airtight container",
+      "tags": [
+        "meal-prep",
+        "lower-calorie"
+      ]
+    },
+    {
+      "id": "nashville-hot-chicken-tenders",
+      "name": "Nashville Hot Chicken Tenders",
+      "category": "snacks",
+      "source": "noahperlofit",
+      "source_url": "https://www.instagram.com/reel/Dec20zDhLYi/",
+      "posted": "2026-10-13",
+      "servings_per_batch": null,
+      "per_serving": {
+        "kcal": 200,
+        "protein_g": null,
+        "carbs_g": null,
+        "fat_g": null
+      },
+      "cost_usd_per_serving": 1.8,
+      "key_ingredients": [
+        "Chicken breast tenders",
+        "seasoned flour",
+        "egg",
+        "crushed cornflakes",
+        "hot sauce-butter-honey glaze"
+      ],
+      "method": "Bread tenders (flour, egg, cornflakes), bake until crispy; brush with hot honey-butter sauce.",
+      "storage": "Foil-wrapped; freeze and reheat well",
+      "tags": [
+        "meal-prep",
+        "freezer-friendly",
+        "lower-calorie"
+      ]
+    }
+  ]
+}
