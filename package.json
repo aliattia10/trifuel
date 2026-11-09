@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@wger-project/react-components": "26.10.4",
-    "sass": "^1.106.1"
+    "sass": "^1.108.0"
   },
   "scripts": {
     "build:css:sass": "sass wger/core/static/scss/main.scss wger/core/static/bootstrap-compiled.css"
